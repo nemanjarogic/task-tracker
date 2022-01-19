@@ -22,7 +22,6 @@ export class TaskItemComponent implements OnInit {
   }
 
   onToggle(task: Task) {
-    console.log('test');
     this.onToggleReminder.emit(task);
   }
 }
